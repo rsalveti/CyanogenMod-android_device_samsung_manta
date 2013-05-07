@@ -189,10 +189,6 @@ $(call inherit-product, frameworks/native/build/tablet-10in-xhdpi-2048-dalvik-he
 PRODUCT_PROPERTY_OVERRIDES += \
     media.aac_51_output_enabled=true
 
-# set default USB configuration
-PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
-    persist.sys.usb.config=mtp
-
 # for off charging mode
 PRODUCT_PACKAGES += \
     charger \
